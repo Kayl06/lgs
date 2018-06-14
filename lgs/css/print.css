@@ -1,0 +1,74 @@
+@media print {
+    #header,
+    #report-form,
+    .print {
+        display: none;
+    }
+    
+    #reports-header {
+        display: table;
+        margin: 0 auto;
+        /*margin-top: -95px;*/
+    }
+    
+    #page-reports h1 {
+         display: block;
+         margin-top: -40px;
+         font-size: 15px;
+         padding: 20px;
+       /* font-weight: bold;*/
+    }
+    
+    #reports-logo {
+        display: block;        
+        width: 135px;
+        margin-left: -620px; 
+        padding-top: 40px;
+    }
+    
+    #reports-header h1 {
+        display: block;
+        float: left;
+        font-size: 19px;
+        margin-top: -50px;
+        /*font-size: 1.5rem;*/
+    }
+
+
+
+    #logs {
+        
+    }
+    
+    #logs th {
+        border-left: 1px solid #ddd;
+    }
+    
+    #logs th:last-child {
+        border-right: 1px solid #ddd;
+    }
+    
+    #logs td {
+        border-left: 1px solid #ddd;
+    }
+    
+    #logs tr:last-child td {
+        border-bottom: 1px solid #ddd;
+    }
+    
+    #logs tr td:last-child {
+        border-right: 1px solid #ddd;
+    }
+    
+    #table-head-bar input {
+        display:none;
+    }
+
+    @page {
+        size: auto;  margin: 0mm;
+    }
+
+
+
+} /* end of @media print */
+
